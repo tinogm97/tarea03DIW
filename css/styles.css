@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "Campton-BoldDEMO";
+    src: url("fonts/Campton-BoldDEMO.otf");
+ 
+
+}
+@font-face {
+    font-family: "Captain Redemption";
+    src: url("fonts/Captain Redemption.ttf");
+
+}
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url("fonts/Inter-ExtraBold.ttf");
+    font-weight: bolder;
+
+}
+@font-face {
+    font-family: "Inter-Light";
+    src: url("fonts/Inter-Light.ttf");
+   
+
+}
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("fonts/Inter-Medium.ttf");
+    
+
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+    
+    
+
+}
+@font-face {
+    font-family: "PetitaMedium";
+    src: url("fonts/PetitaMedium.ttf");
+    
+
+}
+
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+.flexgrow{
+    flex-grow: 1;
+}
+header{
+    background-color: #EBEBEB;
+    padding: 2.2em 1em 0em 1em;
+
+    
+}
+
+#icono_idioma{
+width: 0.938em;
+height:0.625em;
+padding-top: 0.7em;
+}
+#bandera{
+    padding-top: 0.3em;
+height: 1.3em;
+width: 1.8em;
+margin-left: 0.1em;
+
+}
+#idioma{
+    margin-right: 1em;
+    
+    width: 5%;
+}
+body{
+    margin: 0;
+}
+#menu{
+    margin-top: 0.1em;
+
+margin-left: 18em;
+margin-right: -5em;
+width: 80%;
+font-size: 1.188em;
+font-family: "Inter";
+font-weight: 500;
+}
+
+#sec_mapa{
+    margin-top: 10em;
+    background-color: #8F0000;
+    color: white;
+}
+#titulo1{
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2.5em;
+    font-size: 1.875em;
+}
+#mapa{
+    justify-content: center;
+}
+#titulo2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.4em;
+    padding-bottom: 0.3em;
+    font-size: 2.25em;
+    color: white;
+    font-family: "Poppins";
+}
+iframe{
+    width: 80%;
+    height:50em;
+    margin-left: 11em;
+    
+    
+}
+#img_opinion{
+  margin-left: -40em;
+  margin-top: 20em;
+    position: absolute;
+    z-index: 1;
+    width: 13%;
+}
+video{
+    padding-top: -5em;
+    margin: 1em auto;
+   
+}
+.lateral_video{
+    width: 5%;
+}
+.iconos{
+    width: 2.5em;
+    height: 2.5em;
+}
+#textos_mapa{
+    padding: 5em 13em 5em 13em;
+    text-align: center;
+    justify-content: center;
+}
+#texto1,#texto2,#texto3,#texto4{
+    width: 50%;
+}
+#texto5{
+    width: 50%;
+    margin: 0 auto;
+}
+#textos_fila1{
+    margin-bottom: 4em;
+}
+#textos_fila2{
+    margin-bottom: 4em;
+}
+.titulo_iconos{
+font-size:1.5em;
+font-family: "Poppins";
+margin-bottom: 0.4em;
+
+}
+.icono_texto{
+    margin-left: 13em;
+}
+.iconos{
+  margin-top: 1.5em;
+  padding-right: 1.5em;
+}
+.parrafo{
+    font-family: "PetitaMedium";
+font-size: 1.5em;
+padding:0 2.7em;
+
+
+}
+#apocaliptica{
+    font-weight: bold;
+}
+#logo{
+    padding-bottom: 1.5em;
+    
+    margin-top: -1em;
+    margin-right: -8em;
+    margin-left: 8em;
+  
+    width: 15%;
+}
+.elementos-nav{
+  
+    width: 16.6%;
+}
+
+#menu_mejores{
+    margin-left: -2em;
+    margin-right: 1em;
+}
+#menu_ocio{
+    margin-right: 2em;
+}
+#menu_contacto{
+    text-align: right;
+  margin-right: 7em;
+}
+#menu_inicio{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: rgb(39, 39, 39);
+}
+#sec_destacados{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #E3E3E3;
+}
+#titulo3{
+    font-size: 1.875em;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+#parrafo_sec3{
+    font-family: "PetitaMedium";
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 20em 1em 20em;
+}
+#sitios{
+    margin: 0 15em;
+}
+.sitio{
+    width: 33%;
+}
+.imgs{
+    width: 80%;
+    height: 60%;
+}
+.titulos_sitios{
+    text-align: center;
+    padding-right: 20%;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    font-family: "Captain Redemption";
+}
+.botones{
+    margin-left: 27%;
+   margin-top: 0.3em;
+   margin-bottom: 1em;
+   font-size: 1.125em;
+   border-radius:2em;
+   padding: 0.15em 0.9em;
+  border-color: transparent;
+   color: white;
+   background: rgb(255,0,15);
+background: linear-gradient(90deg, rgba(255,0,15,1) 0%, rgba(170,0,31,1) 100%);
+   font-family: "PetitaMedium";
+   box-shadow: 2px 2px 10px #666;
+   
+}
+#sec_valoraciones{
+    background-color: #F5F5F5;
+}
+#valoraciones_arriba{
+    justify-content: space-between;
+    padding-top: 2em;
+}
+#valoracion_estrella{
+    padding-left: 38%;
+}
+#titulo4{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1.875em;
+    padding-left: 18%;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+#nombre_valoracion{
+    text-align: center;
+    font-size:1.875em;
+    font-weight: bold;
+    background-color: #DDDDDD;
+    margin:0 5.5em;
+    padding: 1.3em 0;
+    border-radius: 5px;
+    margin-top: -1em;
+    font-family: "PetitaMedium";
+}
+
+#valoraciones_nombre{
+    margin-top: 3em;
+}
+#flecha_izq{
+width:2.5em;
+margin-left: 5em;
+}
+#flecha_der{
+    width: 2.5em;
+    margin-right: 5em;
+}
+#img_perfil{
+    width: 9%;
+}
+#comentario{
+    font-family: "PetitaMedium";
+    text-align: center;
+    font-size: 1.5em;
+    padding:2em 22em;
+}
+#perfil{
+    justify-content: space-between;
+    margin: 0 18em;
+    padding-bottom: 6em;
+}
+#nombre_usuario{
+    font-family: "PetitaMedium";
+font-size: 1.125em;
+font-weight: bold;
+padding-left: 2em;
+}
+#fecha{
+    font-family: "PetitaMedium";
+font-size: 1.125em;
+font-weight: bold;
+}
+
+footer{
+    font-family: "Inter";
+    background-color: #686868;
+    color: white;
+    padding: 2em 8em;
+    font-size: 1.125em;
+    height: 100%;
+}
+#manos{
+    width: 15%;
+    height: auto;
+    margin-top: 3em;
+}
+.menu_ft{
+    width: 20%;
+}
+.subindices{
+    font-weight: 200;
+}
+#iconos_sociales img{
+    width: 2.188em;
+    height: 2.188em;
+    margin:0 1em;
+    margin-top:10em;
+    
+    
+}
+#iconos_sociales{
+    margin-left: -7em;
+}
+#nombre,#cartagena_ft{
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 1.375em;
+}
+#apocaliptica_ft,#apocaliptica{
+    font-family: "Captain Redemption";
+    font-size: 2.25em;
+    padding-left: 0.5em;
+    font-weight: 500;
+    margin-top: -0.1em;
+}
